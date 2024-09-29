@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="card">
+        <h2>Sign Up</h2>
+        <form action="#">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label>User Type:</label>
+            <div class="radio-container">
+                <input type="radio" id="admin" name="userType" value="admin" required>
+                <label for="admin">Admin</label>
+
+                <input type="radio" id="driver" name="userType" value="driver" required>
+                <label for="driver">Delivery Driver</label>
+
+                <input type="radio" id="customer" name="userType" value="customer" required>
+                <label for="customer">Customer</label>
+            </div>
+
+            <button type="submit">Sign Up</button>
+            <p>Have an account? <a href="login.html" style="text-decoration: underline; font-weight: bold;">Login</a></p>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

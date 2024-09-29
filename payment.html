@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/payment.css"> <!-- Adjust the path to your main CSS file -->
+    <title>Payment</title>
+</head>
+<body>
+
+<div class="hero_area">
+    <header class="header_section">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand" href="index.html" style="text-decoration: none;">
+                    <span>Dish Drop</span>
+                </a>                
+                <div class="User_option">
+                    <form class="form-inline ">
+                        <input type="search" placeholder="Search" />
+                        <button class="btn  nav_search-btn" type="submit">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="left">
+            <div id="head">
+            </div>
+            <h3>TOTAL : 9.99$</h3>
+        </section>
+        <section id="right">
+            <h1>Purchase</h1>
+            <form action="#">
+                <div id="form-card" class="form-field">
+                    <label for="cc-number">Card number:</label>
+                    <input id="cc-number" maxlength="19" placeholder="1111 2222 3333 4444" required>
+                </div>
+                <div id="form-date" class="form-field">
+                    <label for="expiry-month">Expiry date:</label>
+                    <div id="date-val">
+                        <select id="expiry-month" required>
+                            <option value="01">1</option>
+                            <option value="02">2</option>
+                            <option value="03">3</option>
+                            <option value="04">4</option>
+                            <option value="01">5</option>
+                            <option value="02">6</option>
+                            <option value="03">7</option>
+                            <option value="04">8</option>
+                            <option value="01">9</option>
+                            <option value="02">10</option>
+                            <option value="03">11</option>
+                            <option value="04">12</option>
+                        </select>
+                        <select id="expiry-year" required>
+                            <option value="01">1</option>
+                            <option value="02">2</option>
+                            <option value="03">3</option>
+                            <option value="04">4</option>
+                            <option value="01">5</option>
+                            <option value="02">6</option>
+                            <option value="03">7</option>
+                            <option value="04">8</option>
+                            <option value="01">9</option>
+                            <option value="02">10</option>
+                            <option value="03">11</option>
+                            <option value="04">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="form-sec-code" class="form-field">
+                    <label for="sec-code">CCV:</label>
+                    <input type="password" maxlength="3" placeholder="123" required>
+                </div>
+                <button type="submit">Purchase Premium</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer_section">
+        <div class="container">
+            <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved By Drop Dish Team
+                <p>Introduction to Database Systems - FALL 2023
+                    CSAI 202 Zewail City</p><br>
+            </p>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

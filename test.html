@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="card">
+            <h2>Sign Up</h2>
+            <form method="post">
+                <div class="validation-summary">
+                    <partial name="_ValidationSummary" />
+                </div>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" asp-for="Name" required>
+                <span asp-validation-for="Name"></span>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" asp-for="Password" required>
+                <span asp-validation-for="Password"></span>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" asp-for="Phone" required>
+                <span asp-validation-for="Phone"></span>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" asp-for="City" required>
+                <span asp-validation-for="City"></span>
+
+                <label for="street_address">Street:</label>
+                <input type="text" id="street_address" name="street_address" asp-for="StreetAddress" required>
+                <span asp-validation-for="StreetAddress"></span>
+
+                <button type="submit">Sign Up</button>
+                <p>Have an account? <a asp-page="login">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
