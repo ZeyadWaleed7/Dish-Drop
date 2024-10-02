@@ -106,6 +106,7 @@ input{
     outline: none;
     width: 100%;
     background-color: rgb(247, 247, 247);
+    border-radius: 2px;
 }
 input:focus::-webkit-input-placeholder
 {
@@ -120,6 +121,7 @@ input:focus::-webkit-input-placeholder
     margin-top: 4vh;
     padding: 1vh;
     border-radius: 0;
+    border-radius: 6px;
 }
 .btn:focus{
     box-shadow: none;
