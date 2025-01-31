@@ -14,22 +14,48 @@
             <span>Dish Drop</span>
         </a>
     </div>
-
     <div class="card">
         <header>
-            <h1>Delivery</h1>
+            <h1>Delivery Portal</h1>
         </header>
-
-        <section id="cart">
-            <h2>Orders</h2>
+        <section id="orders">
+            <h2>Pending Orders</h2>
             <ul>
-                <li>Falafel - $10.99 </li>
-                <li>Koshary- $19.99</li>
-                <!-- Add more cart items as needed -->
+                <li>
+                    <div>
+                        <strong>Order #1</strong>
+                        <p>Falafel - $10.99</p>
+                        <p>Koshary - $19.99</p>
+                        <p><strong>Customer:</strong> John Doe</p>
+                        <p><strong>Address:</strong> 123 Main St</p>
+                    </div>
+                    <div>
+                        <button class="checkout-btn">Accept</button>
+                        <button class="checkoutt-btn">Decline</button>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Order #2</strong>
+                        <p>Burger - $12.99</p>
+                        <p>Fries - $5.99</p>
+                        <p><strong>Customer:</strong> Jane Smith</p>
+                        <p><strong>Address:</strong> 456 Elm St</p>
+                    </div>
+                    <div>
+                        <button class="checkout-btn">Accept</button>
+                        <button class="checkoutt-btn">Decline</button>
+                    </div>
+                </li>
+                <!-- Add more orders as needed -->
             </ul>
-            <p id="total">Total: $30.98</p>
-            <a href="#" class="checkout-btn">Accept</a>
-            <a href="#" class="checkoutt-btn">Decline</a>
+        </section>
+
+        <section class="summary">
+            <h2>Summary</h2>
+            <p><strong>Total Orders:</strong> 2</p>
+            <p><strong>Total Revenue:</strong> $5.00</p>
+            <p><strong>Delivery Fees Collected:</strong> $5.00</p>
         </section>
     </div>
 
